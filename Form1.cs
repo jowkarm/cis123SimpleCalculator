@@ -59,7 +59,7 @@ namespace SimpleCalculator
             decimal result = this.Calculate(operand1, operator1, operand2);
             result = Math.Round(result, 4);  // the result rounded to four decimal places
 
-            txtResult.Text = result.ToString("c");
+            txtResult.Text = result.ToString();
             txtOperand1.Focus();
         }
 
